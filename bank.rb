@@ -1,12 +1,6 @@
 #Вводится баланс
 print "Введите Ваш баланс: "
 bal = gets.chomp.to_i
-if bal >= 0 && bal.class == Float
-   puts "Ваш баланс #{bal}."
-else
-    puts "Ошибка"
-    return 0
-end
 #Вводим количество купюр
 puts "Сколько купюр в банкомате?"
 print "Номиналом '5': "
